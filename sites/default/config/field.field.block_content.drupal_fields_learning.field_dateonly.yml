@@ -1,0 +1,24 @@
+uuid: 667c98b9-e439-4939-8c15-3eac7f9fd6a0
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_dateonly
+  module:
+    - datetime
+id: block_content.drupal_fields_learning.field_dateonly
+field_name: field_dateonly
+entity_type: block_content
+bundle: drupal_fields_learning
+label: dateOnly
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    default_date_type: now
+    default_date: now
+default_value_callback: ''
+settings: {  }
+field_type: datetime

@@ -1,0 +1,39 @@
+uuid: 9365ca30-8f62-43c8-92b4-95606bbb8bf7
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d707e7fa-f3ea-48f6-a05d-130d3210871e'
+  module:
+    - block_content
+    - system
+    - user
+  theme:
+    - bartik
+id: videoaboutblocks
+theme: bartik
+region: featured_bottom_second
+weight: 0
+provider: null
+plugin: 'block_content:d707e7fa-f3ea-48f6-a05d-130d3210871e'
+settings:
+  id: 'block_content:d707e7fa-f3ea-48f6-a05d-130d3210871e'
+  label: VideoAboutBlocks
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
+  user_role:
+    id: user_role
+    roles:
+      authenticated: authenticated
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'

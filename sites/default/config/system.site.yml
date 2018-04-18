@@ -1,0 +1,14 @@
+uuid: 8376f755-028c-4458-8e4d-8968656a65f0
+name: DrupalTest
+mail: matiushenko.vladyslav@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

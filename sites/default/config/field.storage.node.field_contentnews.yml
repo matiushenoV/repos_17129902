@@ -1,0 +1,19 @@
+uuid: 4a452674-1d88-4790-bca0-bffc27a3ca4f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_contentnews
+field_name: field_contentnews
+entity_type: node
+type: entity_reference
+settings:
+  target_type: node
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,33 @@
+uuid: 8ed3f00b-2272-4abc-b271-297de7f30539
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.testtype
+    - field.field.block_content.testtype.body
+    - field.field.block_content.testtype.field_img
+  module:
+    - image
+    - text
+id: block_content.testtype.default
+targetEntityType: block_content
+bundle: testtype
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_img:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden: {  }

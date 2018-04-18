@@ -1,0 +1,31 @@
+uuid: 931a33ab-68e7-4258-9918-ce0e23cc406b
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ca81d9b8-6977-48fd-ace9-db1d2c64ba53'
+  module:
+    - block_content
+    - system
+  theme:
+    - bartik
+id: madebymyname
+theme: bartik
+region: footer_fifth
+weight: -8
+provider: null
+plugin: 'block_content:ca81d9b8-6977-48fd-ace9-db1d2c64ba53'
+settings:
+  id: 'block_content:ca81d9b8-6977-48fd-ace9-db1d2c64ba53'
+  label: 'Made by "My Name"'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

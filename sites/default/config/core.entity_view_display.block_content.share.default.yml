@@ -1,0 +1,22 @@
+uuid: 6960d2e5-66da-4af2-87b6-63fc7011d8da
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.share
+    - field.field.block_content.share.body
+  module:
+    - text
+id: block_content.share.default
+targetEntityType: block_content
+bundle: share
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

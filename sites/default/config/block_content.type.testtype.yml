@@ -1,0 +1,8 @@
+uuid: bce05d48-80c6-45dc-9269-c861c27cebb9
+langcode: en
+status: true
+dependencies: {  }
+id: testtype
+label: TestType
+revision: 0
+description: ''

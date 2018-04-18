@@ -1,0 +1,23 @@
+uuid: 1f56ec13-2bb9-44e1-8bb6-708f6e7263c6
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_link_ext
+  module:
+    - link
+id: block_content.drupal_fields_learning.field_link_ext
+field_name: field_link_ext
+entity_type: block_content
+bundle: drupal_fields_learning
+label: link_ext
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 16
+  title: 1
+field_type: link

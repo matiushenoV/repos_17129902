@@ -1,0 +1,25 @@
+uuid: 1a0baca4-e615-4469-839c-6308c2d03d93
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:pdf_file:3cab73d6-e116-4179-9b86-d88b9f85b540'
+  module:
+    - block_content
+  theme:
+    - bartik
+id: pdfwithdescription
+theme: bartik
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'block_content:3cab73d6-e116-4179-9b86-d88b9f85b540'
+settings:
+  id: 'block_content:3cab73d6-e116-4179-9b86-d88b9f85b540'
+  label: 'PDF with description'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: ef581be3-0e5b-465c-bd86-c59f02c3c1e5
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.share
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.share.body
+field_name: body
+entity_type: block_content
+bundle: share
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

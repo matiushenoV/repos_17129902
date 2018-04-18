@@ -1,0 +1,21 @@
+uuid: f1978b7b-df21-4d59-801a-8add211722b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_int_list
+  module:
+    - options
+id: block_content.drupal_fields_learning.field_int_list
+field_name: field_int_list
+entity_type: block_content
+bundle: drupal_fields_learning
+label: int_list
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

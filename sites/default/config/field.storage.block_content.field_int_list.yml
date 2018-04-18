@@ -1,0 +1,21 @@
+uuid: 28142849-607e-4289-b51d-5343726965bf
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - options
+id: block_content.field_int_list
+field_name: field_int_list
+entity_type: block_content
+type: list_integer
+settings:
+  allowed_values: {  }
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 4
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

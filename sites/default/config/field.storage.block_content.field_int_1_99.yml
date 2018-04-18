@@ -1,0 +1,20 @@
+uuid: 9146ece6-5c80-44a6-a213-40115e0b3d1f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_int_1_99
+field_name: field_int_1_99
+entity_type: block_content
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

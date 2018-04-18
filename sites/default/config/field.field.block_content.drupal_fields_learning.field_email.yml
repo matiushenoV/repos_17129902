@@ -1,0 +1,19 @@
+uuid: 7c00897d-1e6b-4e29-bfd6-1fca0f2b4392
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_email
+id: block_content.drupal_fields_learning.field_email
+field_name: field_email
+entity_type: block_content
+bundle: drupal_fields_learning
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

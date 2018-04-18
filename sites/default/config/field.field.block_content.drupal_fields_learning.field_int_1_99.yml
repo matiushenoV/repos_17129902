@@ -1,0 +1,23 @@
+uuid: 3b8742a1-686d-4a77-915c-cad63921eb99
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_int_1_99
+id: block_content.drupal_fields_learning.field_int_1_99
+field_name: field_int_1_99
+entity_type: block_content
+bundle: drupal_fields_learning
+label: int_1-99
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: 99
+  prefix: ''
+  suffix: ''
+field_type: integer

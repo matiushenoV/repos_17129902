@@ -1,0 +1,19 @@
+uuid: eb990912-279d-4a4f-ad26-906976eceb65
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.drupal_fields_learning
+    - field.storage.block_content.field_text_plain_long_1
+id: block_content.drupal_fields_learning.field_text_plain_long_1
+field_name: field_text_plain_long_1
+entity_type: block_content
+bundle: drupal_fields_learning
+label: text_plain_long_1
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long
